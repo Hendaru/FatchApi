@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		156448AB2B3019F600F6A4F0 /* FatchApiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448AA2B3019F600F6A4F0 /* FatchApiAppApp.swift */; };
-		156448AD2B3019F600F6A4F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448AC2B3019F600F6A4F0 /* ContentView.swift */; };
+		156448AD2B3019F600F6A4F0 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448AC2B3019F600F6A4F0 /* MoviesView.swift */; };
 		156448AF2B3019FB00F6A4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156448AE2B3019FB00F6A4F0 /* Assets.xcassets */; };
 		156448B22B3019FB00F6A4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156448B12B3019FB00F6A4F0 /* Preview Assets.xcassets */; };
+		156448B92B302AC300F6A4F0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448B82B302AC200F6A4F0 /* Movie.swift */; };
+		156448BF2B312C3000F6A4F0 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448BE2B312C3000F6A4F0 /* MovieService.swift */; };
+		156448C12B31414100F6A4F0 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448C02B31414100F6A4F0 /* Secret.swift */; };
+		156448C42B31509800F6A4F0 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156448C32B31509800F6A4F0 /* MoviesViewModel.swift */; };
+		1588C0E82B3397CA005EE25F /* CastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588C0E72B3397CA005EE25F /* CastService.swift */; };
+		1588C0EA2B339801005EE25F /* MovieCastMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588C0E92B339801005EE25F /* MovieCastMember.swift */; };
+		1588C0EC2B3399EF005EE25F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1588C0EB2B3399EF005EE25F /* MovieDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		156448A72B3019F600F6A4F0 /* FatchApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatchApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156448AA2B3019F600F6A4F0 /* FatchApiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatchApiAppApp.swift; sourceTree = "<group>"; };
-		156448AC2B3019F600F6A4F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		156448AC2B3019F600F6A4F0 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		156448AE2B3019FB00F6A4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		156448B12B3019FB00F6A4F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		156448B82B302AC200F6A4F0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		156448BE2B312C3000F6A4F0 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		156448C02B31414100F6A4F0 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		156448C32B31509800F6A4F0 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		1588C0E72B3397CA005EE25F /* CastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastService.swift; sourceTree = "<group>"; };
+		1588C0E92B339801005EE25F /* MovieCastMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCastMember.swift; sourceTree = "<group>"; };
+		1588C0EB2B3399EF005EE25F /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				156448AA2B3019F600F6A4F0 /* FatchApiAppApp.swift */,
-				156448AC2B3019F600F6A4F0 /* ContentView.swift */,
+				156448C02B31414100F6A4F0 /* Secret.swift */,
+				156448BD2B30824400F6A4F0 /* Service */,
+				156448BB2B307F9B00F6A4F0 /* View */,
+				156448BC2B307FBE00F6A4F0 /* Model */,
+				156448C22B31502900F6A4F0 /* ViewModel */,
 				156448AE2B3019FB00F6A4F0 /* Assets.xcassets */,
 				156448B02B3019FB00F6A4F0 /* Preview Content */,
 			);
@@ -65,6 +83,41 @@
 				156448B12B3019FB00F6A4F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		156448BB2B307F9B00F6A4F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				156448AC2B3019F600F6A4F0 /* MoviesView.swift */,
+				1588C0EB2B3399EF005EE25F /* MovieDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		156448BC2B307FBE00F6A4F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1588C0E92B339801005EE25F /* MovieCastMember.swift */,
+				156448B82B302AC200F6A4F0 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		156448BD2B30824400F6A4F0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				156448BE2B312C3000F6A4F0 /* MovieService.swift */,
+				1588C0E72B3397CA005EE25F /* CastService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		156448C22B31502900F6A4F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				156448C32B31509800F6A4F0 /* MoviesViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156448AD2B3019F600F6A4F0 /* ContentView.swift in Sources */,
+				156448AD2B3019F600F6A4F0 /* MoviesView.swift in Sources */,
+				156448C42B31509800F6A4F0 /* MoviesViewModel.swift in Sources */,
+				156448C12B31414100F6A4F0 /* Secret.swift in Sources */,
+				1588C0EA2B339801005EE25F /* MovieCastMember.swift in Sources */,
 				156448AB2B3019F600F6A4F0 /* FatchApiAppApp.swift in Sources */,
+				156448BF2B312C3000F6A4F0 /* MovieService.swift in Sources */,
+				1588C0EC2B3399EF005EE25F /* MovieDetailsView.swift in Sources */,
+				1588C0E82B3397CA005EE25F /* CastService.swift in Sources */,
+				156448B92B302AC300F6A4F0 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

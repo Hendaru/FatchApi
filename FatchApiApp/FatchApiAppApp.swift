@@ -11,7 +11,9 @@ import SwiftUI
 struct FatchApiAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                MoviesView()
+            }
         }
     }
 }
